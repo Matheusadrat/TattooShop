@@ -20,9 +20,19 @@
   <body>
     <header id="header">
       <span></span>
-      <nav class="container">
+      <nav class="container show">
         <a class="logo" href="#"> tattoo<span>shop</span>.</a>
-        <div class="menu">...</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Inicio</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="services">Serviços</a></li>
+            <li><a class="title" href="testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contatos</a></li>
+          </ul>
+        </div>
+        <div class="open">...</div>
+        <div class="close">x</div>
       </nav>
     </header>
 
@@ -36,7 +46,7 @@
             />
           </div>
           <div class="text">
-            <h1>Tatuagens</h1>
+            <h2 class="title">Tatuagens</h2>
             <p>Um estúdio exclusivo em São Paulo, especializado em tatuagens 3D.</p>
             <a class="button" href="#">Fazer um orçamento </a>
           </div>
@@ -45,10 +55,14 @@
 
       <div class="divider-1"></div>
 
-      <section class="section"></section>
-      <div class="container">outra section</div>
-    </main>
+      <section class="section" id="about">
+        <div class="container grid">Sobre</div>
+      </section>
 
+      <section class="section" id="services">
+        <div class="container grid">Serviços</div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
