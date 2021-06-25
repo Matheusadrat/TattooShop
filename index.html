@@ -7,7 +7,10 @@
     <title>TattooShop - inicio</title>
 
     <!-- icons -->
-
+    <link
+      rel="shortcut icon"
+      href="https://image.flaticon.com/icons/png/512/2484/2484679.png"
+    />
     <link rel="stylesheet" href="Assets/fonts/style.css" />
     <!-- styles -->
     <link rel="stylesheet" href="style.css" />
@@ -21,15 +24,15 @@
     />
   </head>
   <body>
-    <header id="header">
+    <header id="header" class="scroll">
       <span></span>
-      <nav class="container show">
+      <nav class="container">
         <a class="logo" href="#">tattoo<span>shop</span>.</a>
         <div class="menu">
           <ul class="grid">
             <li><a class="title" href="#home">Inicio</a></li>
             <li><a class="title" href="#about">Sobre</a></li>
-            <li><a class="title" href="services">Serviços</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
             <li><a class="title" href="testimonials">Depoimentos</a></li>
             <li><a class="title" href="#contact">Contatos</a></li>
           </ul>
@@ -59,14 +62,80 @@
       <div class="divider-1"></div>
 
       <section class="section" id="about">
-        <div class="container grid">Sobre</div>
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1552627019-947c3789ffb5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGF0dG9vfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Pessoa sendo tatuada"
+            />
+            <div class="text">
+              <h2 class="title">Sobre nós</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nobis
+                deserunt soluta possimus. Quae, temporibus, consectetur magnam officia
+                doloribus quidem atque velit error libero quia, amet repellendus? Fugit,
+                alias nesciunt!
+              </p>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, harum est.
+                Amet, earum officia mollitia ut quae accusantium libero aut optio
+                voluptates ratione, id suscipit labore odit asperiores, nemo animi.
+              </p>
+              <br />
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure esse labore
+                et autem animi officia natus dignissimos error possimus! Odit, magnam?
+                Quis reiciendis qui dolorem, officia alias ipsa non fugit.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
+      <div class="divider-2"></div>
       <section class="section" id="services">
-        <div class="container grid">Serviços</div>
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, a <strong>TattooShop</strong> já conquistou
+              clientes de inúmeros países com seus traços.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-machine"></i>
+              <h3 class="title">Traços finos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A adipisci quo
+                voluptatibus nisi itaque aspernatur magnam perferendis nemo amet.
+                Asperiores.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-machine2"></i>
+              <h3 class="title">Tattoos coloridas</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A adipisci quo
+                voluptatibus nisi itaque aspernatur magnam perferendis nemo amet.
+                Asperiores.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-devil"></i>
+              <h3 class="title">Especializado em tattoos 3D</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A adipisci quo
+                voluptatibus nisi itaque aspernatur magnam perferendis nemo amet.
+                Asperiores.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+
     <script src="script.js"></script>
   </body>
 </html>
